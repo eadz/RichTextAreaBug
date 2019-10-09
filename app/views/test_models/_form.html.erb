@@ -18,7 +18,7 @@
 
   <div class="field">
     <%= form.label :content %>
-    <%= form.rich_text_area :content %>
+    <%= rich_text_area_tag 'test_model[content]', form.object.content %>
   </div>
 
   <div class="actions">
